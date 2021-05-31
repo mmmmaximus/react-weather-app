@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Country component matches snapshot 1`] = `
+<div
+  data-testid="Country"
+>
+  <h2>
+    Africa
+  </h2>
+  <p>
+    capital 
+    Wakanda
+  </p>
+  <p>
+    population 
+    123456
+  </p>
+  <h3>
+    languages
+  </h3>
+  <li>
+    language1
+  </li>
+  <li>
+    language2
+  </li>
+  <li>
+    language3
+  </li>
+  <img
+    alt="Africa"
+    data-testid="img"
+    height="150"
+    width="150"
+  />
+  <h3>
+    Weather in 
+    Africa
+  </h3>
+  <div />
+</div>
+`;
