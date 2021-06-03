@@ -6,7 +6,7 @@ const Weather = ({city}) => {
 
   useEffect(() => {
     axios
-      .get(`https://api.weatherbit.io/v2.0/current?city=${city}&key=${process.env.REACT_APP_API_KEY}`)
+      .get(`http://api.weatherbit.io/v2.0/current?city=${city}&key=${process.env.REACT_APP_API_KEY}`)
       .then(response => {
         setWeather(response.data.data[0])
       })
