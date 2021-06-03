@@ -19,7 +19,7 @@ const Weather = ({city}) => {
       <b>wind: </b>{weather.wind_spd} m/s direction {weather.wind_cdir}
     </div>
   } else {
-    return <div></div>
+    return <div data-testid='Weather'></div>
   }
 }
 

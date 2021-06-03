@@ -37,6 +37,8 @@ exports[`Country component matches snapshot 1`] = `
     Weather in 
     Africa
   </h3>
-  <div />
+  <div
+    data-testid="Weather"
+  />
 </div>
 `;
