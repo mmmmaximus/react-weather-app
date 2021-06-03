@@ -1,9 +1,17 @@
 import { render, screen } from '@testing-library/react'
 import Country from '../Country'
 import renderer from 'react-test-renderer'
+import mockedAxios from '../../__mocks__/axios'
 
 describe('Country component', () => {
   it('should render component', () => {
+    const weatherResponse = {
+      data: {
+        data: [null]
+      }
+    }
+    mockedAxios.get.mockResolvedValueOnce(weatherResponse)
+
     const country = {
       name: 'Africa',
       capital: 'Wakanda',
