@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  data-testid="App"
+>
+  <div>
+    find countries 
+    <input
+      data-testid="Filter"
+      onChange={[Function]}
+    />
+  </div>
+  <div
+    data-testid="Countries"
+  >
+    Search for a country
+  </div>
+</div>
+`;

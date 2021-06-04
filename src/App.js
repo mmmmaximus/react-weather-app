@@ -24,7 +24,7 @@ const App = () => {
   }, [])
 
   return (
-    <div>
+    <div data-testid='App'>
       <Filter func={changeFilter}/>
       <Countries countries={countries} filter={filter} showButton={showButton}/>
     </div>
