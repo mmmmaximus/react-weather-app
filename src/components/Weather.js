@@ -13,7 +13,7 @@ const Weather = ({city}) => {
   }, [city])
 
   if (weather) {
-    return <div>
+    return <div data-testid='Weather'>
       <b>temperature: </b>{weather.temp}°C<br />
       {weather.weather.description}<br />
       <b>wind: </b>{weather.wind_spd} m/s direction {weather.wind_cdir}
