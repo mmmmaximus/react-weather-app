@@ -23,6 +23,14 @@ body {
   padding: 20px 50px;
 }
 
+.countries > .filter-text {
+  text-align: center;
+}
+
+.countries > .countries-text {
+  margin-left: 38%;
+}
+
 .country {
   display: flex;
   justify-content: space-between;
