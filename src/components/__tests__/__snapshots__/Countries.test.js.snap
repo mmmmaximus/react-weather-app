@@ -5,6 +5,10 @@ exports[`matches snapshot 1`] = `
   className="countries"
   data-testid="Countries"
 >
-  Search for a country
+  <p
+    className="filter-text"
+  >
+    Search for a country
+  </p>
 </div>
 `;
