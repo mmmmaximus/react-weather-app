@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  font-family: "Lucida Sans", sans-serif;
+}
+
+body {
+  background-image: linear-gradient(to top, #2362bf, #007cd1, #0095de, #00ade8, #06c4ee);
+  color: #ffffff;
+}
+
+.filter {
+  padding: 20px 50px;
+  text-align: center;
+}
+
+.countries {
+  padding: 20px 50px;
+}
+
+.country {
+  display: flex;
+  justify-content: space-between;
+}
+
+.country > div {
+  width: 48%;
+  padding: 10px;
+}
+
+.country-data > .img {
+  width: 100%;
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding: 20px;
+}
+
+.country-data > h2 {
+  text-align: center;
+  font-size: 1.5em;
+  padding: 5px 0px 5px;
+}
+
+.country-data > table {
+  margin: auto;
+}
+
+tr > td {
+  padding: 5px 2px;
+}
+
+.languages > h3 {
+  padding: 10px 0px;
+  text-align: center;
+}
+
+div > li {
+  padding: 0px 25px;
+  margin-left: 35%;
+}
+
+.weather > .img {
+  width: 85%;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding: 0px 20px;
+}
+
+.weather > h2 {
+  text-align: center;
+  font-size: 1.5em;
+  padding: 0px 0px 5px 0px;
+}
+
+h3.description {
+  text-align: center;
+  padding: 5px 0px;
+}
+
+.weather > table {
+  margin: auto;
+}

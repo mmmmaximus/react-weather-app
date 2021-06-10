@@ -4,7 +4,9 @@ exports[`matches snapshot 1`] = `
 <div
   data-testid="App"
 >
-  <div>
+  <div
+    className="filter"
+  >
     find countries 
     <input
       data-testid="Filter"
@@ -12,6 +14,7 @@ exports[`matches snapshot 1`] = `
     />
   </div>
   <div
+    className="countries"
     data-testid="Countries"
   >
     Search for a country
