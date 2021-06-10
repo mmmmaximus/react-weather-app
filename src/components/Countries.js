@@ -7,17 +7,17 @@ const Countries = ({countries, filter, showButton}) => {
   )
 
   if (filter === '') {
-    return <div data-testid='Countries'>Search for a country</div>
+    return <div className='countries' data-testid='Countries'>Search for a country</div>
   } else if (filteredCountries.length > 10) {
-    return <div data-testid='Countries'>Too many matches, specify another filter</div>
+    return <div className='countries'>Too many matches, specify another filter</div>
   } else if (filteredCountries.length <= 10 && filteredCountries.length > 1) {
-    return <div>
+    return <div className='countries'>
       {filteredCountries.map(country =>
-        <p key={country.name}>{country.name} <button onClick={showButton} value={country.name}>show</button></p>
+        <p key={country.name}>{country.name}<button onClick={showButton} value={country.name}>show</button></p>
       )}
     </div>
   } else {
-    return <div>
+    return <div className='countries'>
       {filteredCountries.map(country =>
         <Country country={country}/>
       )}

@@ -2,6 +2,7 @@
 
 exports[`matches snapshot 1`] = `
 <div
+  className="countries"
   data-testid="Countries"
 >
   Search for a country
