@@ -18,3 +18,11 @@ You will also see any lint errors in the console.
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+## Note
+
+The weather API does not work on browsers that dont allow insecure HTTP connections.\
+
+To circumvent that, on Google Chrome, under settings, under site settings, under additional content settings, click insecure content
+Then under allow, add [https://mmmmaximus.github.io](https://mmmmaximus.github.io)
+This will allow calls to the weather API via HTTP
