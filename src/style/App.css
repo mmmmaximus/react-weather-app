@@ -16,7 +16,12 @@ body {
 
 .filter {
   padding: 20px 50px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.inputBase {
+  background-color:powderblue ;
 }
 
 .countries {
