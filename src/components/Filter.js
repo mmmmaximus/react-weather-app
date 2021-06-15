@@ -1,9 +1,17 @@
 import React from 'react';
+import InputBase from "@material-ui/core/InputBase";
+import SearchIcon from "@material-ui/icons/Search";
 
 const Filter = ({func}) => {
   return (
     <div className='filter'>
-      find countries <input data-testid='Filter' onChange={func}/>
+      <SearchIcon />
+      <InputBase
+        className='inputBase'
+        placeholder='Search...'
+        inputProps={{ 'data-testid': 'Filter' }}
+        onChange={func}
+      />
     </div>
   )
 }
